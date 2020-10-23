@@ -1,0 +1,23 @@
+1. How do I create a hidden file or folder? 
+
+setfile -a V followed by the name of the file or folder. That sets its visibility attribute to invisible; you can undo this by repeating the command with a lower-case v.
+
+
+
+
+
+
+
+1.1 How do I display it in the CLI?
+
+ls -ld .?*
+
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+mkdir -p these/folders/are/just/for/fun?
+
+
+3. How do I append a message to a file, without a newline character, so the output would be:
+
+echo "Wink! WInk!" >CLI_challange.txt
