@@ -13,7 +13,7 @@
     max-width: 80%;
 }
 
-.grid-item-1 {
+.c_details {
 grid-area: a;
 text-align: center;
 padding: 1rem;
@@ -21,12 +21,12 @@ border-top: 1px solid black;
 
 }
 
-.grid-item-2 {
+.bio {
 grid-area: b;
 padding: 1rem;
 }
 
-.grid-item-3 {
+.my_pic {
 grid-area: c;
 max-width: 50%;
 justify-self: end;
@@ -35,21 +35,6 @@ justify-self: end;
 img {
     width: 100%;
     height: 100%;}
-}
-
-.grid-item-4 {
-grid-area: d;
-padding: 1rem;
-}
-
-.grid-item-5 {
-grid-area: e;
-padding: 1rem;
-}
-
-.grid-item-6 {
-grid-area: f;
-padding: 1rem;
 }
 
 
