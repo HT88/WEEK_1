@@ -4,77 +4,17 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
-    <style> .grid-container {
-    display: grid;
-    grid-template-columns:60% 40%;
-
-    /*grid template info from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout*/
-    grid-template-areas: 
-    "a a"
-    "b c"
-    "d d"
-    "e e"
-    "f f";
-    margin: 1rem auto;
-    max-width: 80%;
-}
-
-.grid-item-1 {
-grid-area: a;
-text-align: center;
-padding: 1rem;
-border-top: 1px solid black;  
-
-}
-
-.grid-item-2 {
-grid-area: b;
-padding: 1rem;
-}
-
-.grid-item-3 {
-grid-area: c;
-max-width: 50%;
-justify-self: end;
-
-/* HINT FROM: https://codepen.io/SteveClason/pen/pWaMMP */
-img {
-    width: 100%;
-    height: 100%;}
-}
-
-.grid-item-4 {
-grid-area: d;
-padding: 1rem;
-}
-
-.grid-item-5 {
-grid-area: e;
-padding: 1rem;
-}
-
-.grid-item-6 {
-grid-area: f;
-padding: 1rem;
-}
-
-
-h1, h2, h3, h4 {
-    font-size: 1rem;
-} </style>
-    
 </head>
 <body>
 <div class="grid-container">
 
 
-    <div class="grid-item grid-item-1">Hancho TABAKIROV<br>
+    <div class="grid-item c_details">Hancho TABAKIROV<br>
         +31 69 666999<br> Charles Petitweg 35 A10
         4827 HJ <br> ARNHEM
     </div>
 
-    <div class="grid-item grid-item-2"> <h1>BIO GIST </h1> 
+    <div class="grid-item bio"> <h1>BIO GIST </h1> 
         H.T (July 2, 1908 – Present) is a Mongolian lawyer and civil rights activist. Born in Ulan Bator, MONGOLIA, H.T. graduated from Mongolian State University in 2010. He established a private legal practice in Ulan Bator before joining the Embassy of Japan as Legal Adviser. In that position, he argued several cases before the local courts. H.T first learned how to debate from his father, who took him and his brother to watch court cases; they would later debate what they had seen. The family also debated current events after dinner. Although his father never told him to become a lawyer, he "turned me into one. He did it by teaching me to argue, by challenging my logic on every point, by making me prove every statement I made.
 
     </div>
@@ -83,7 +23,7 @@ h1, h2, h3, h4 {
 
 
 
-    <div class="grid-item grid-item-3"> <img src="https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkgBQt8tDsSxBNDMvJLYjzDaaKTM5SRkZCeTgDn6uOyic" width="100%">
+    <div class="grid-item my_pic"> <img src="https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkgBQt8tDsSxBNDMvJLYjzDaaKTM5SRkZCeTgDn6uOyic" width="100%">
     Busan, SK
     </div>
 
@@ -91,24 +31,21 @@ h1, h2, h3, h4 {
 
 
 
-    <div class="grid-item grid-item-4"> <h2>EDUCATION </h2>
+    <div> 
+        
+        <h2>EDUCATION </h2>
         1.  HYF, Coding School (October 2020 - Present) <br>
-        2.  Mongolian State University, Faculty of Law LL.B Law (2005 - 2010)  </div>
+        2.  Mongolian State University, Faculty of Law LL.B Law (2005 - 2010) 
 
 
 
 
 
-    <div class="grid-item grid-item-5"> <h3>WORK EXPERIENCE </h3>
+   <h3>WORK EXPERIENCE </h3>
         1.  Embassy of Japan in Mongolia, Legal Adviser (2011 - 2014)
-</div>
 
-
-
-
-
-    <div class="grid-item grid-item-6"> <h4>OTHER </h4>
-        Language Skills: 
+    
+    <h4>Language Skills: </h4>
         <ol>
             <ul>Mongolian</ul> 
             <ul>Russian</ul> 
@@ -116,12 +53,6 @@ h1, h2, h3, h4 {
             <ul>Korean</ul>
 
         </ol>
-        
-        </div>
-
-
-
-    
 </div>
 
 
